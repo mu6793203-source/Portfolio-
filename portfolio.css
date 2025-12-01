@@ -1,0 +1,56 @@
+body{
+		background-color: rgb(20, 0 ,1);
+		color:white;
+}
+#head{
+		background-color: rgba(2, 80, 1.9, 9.5);
+		position: fixed;
+		width:100%;
+		text-align: center;
+		height: 110px;
+		z-index: 2;
+}
+img{
+		float: left;
+		border-radius: 360px;
+		height:80px ;
+		width:80px ;
+		position: relative;
+		top:2px ;
+}
+a{
+		color:white;
+		text-decoration-line: none;
+}
+.inside{
+		position: relative;
+		top:100px;
+		left:190px;
+		text-align: center;
+		width:220px;
+		background-color: rgba(25, 20, 1, 1.5 );
+		display: space-between;
+		z-index: 1;
+		border-radius: 20px;
+		border: 1px dashed white;
+}
+p{
+		font-family: monospace;
+}
+.btn{
+		background-color: none;
+		margin: 120px 0 0 255px;
+}
+button{
+		height: 40px;
+		width:100px;
+		border-radius:250px;
+		font-weight:bold;
+}
+footer{
+		background-color:rgb(20, 25, 1);
+		position: relative;
+		top:200px;
+		 text-align: center;
+		height:50px;
+}
